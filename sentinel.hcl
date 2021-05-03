@@ -11,6 +11,6 @@ module "tfconfig-functions" {
 }
 
 policy "enforce-vm-naming-convention" {
-    source = "./vm-naming-convention.sentinel"
+    source = "./vm_naming_convention.sentinel"
     enforcement_level = "hard-mandatory"
 }
